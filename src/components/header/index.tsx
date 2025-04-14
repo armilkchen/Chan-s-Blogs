@@ -9,7 +9,7 @@ import XIcon from "@/components/icons/x";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import { SquareTerminal } from "lucide-react";
+import Image from "next/image";
 
 export function Header() {
   const pathname = usePathname();
@@ -28,7 +28,7 @@ export function Header() {
 
         {/* Logo */}
         <Link href="/" title="Home" className="flex items-center gap-4 md:order-first">
-          <SquareTerminal className="w-10 h-10" />
+          <Image src="/favicon.svg" alt="Logo" width={40} height={40} />
         </Link>
 
         {/* Desktop navigation */}
@@ -36,7 +36,7 @@ export function Header() {
           <NavDesktopMenu />
         </div>
 
-        {/* Right side buttons */}
+        {/* Right side buttons - 暂时隐藏
         <div className="flex items-center space-x-2 md:space-x-8 mr-4">
           <Link href="https://github.com/guangzhengli" title="Github">
             <GithubIcon />
@@ -48,6 +48,7 @@ export function Header() {
             <XiaohongshuIcon />
           </Link>
         </div>
+        */}
       </motion.div>
     </header >
   );

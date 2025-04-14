@@ -1,12 +1,12 @@
 export const config = {
   site: {
-    title: "Nextjs Blog Template",
-    name: "Nextjs Blog Template",
-    description: "Nextjs Blog Template",
-    keywords: ["Nextjs Blog Template", "AI", "Full Stack Developer"],
-    url: "https://xxx.com",
-    baseUrl: "https://xxx.com",
-    image: "https://xxx.com/og-image.png",
+    title: "Chan's Blogs",
+    name: "Chan's Blogs",
+    description: "An investment in knowledge pays the best interest.",
+    keywords: ["SEO", "AI", "Full Stack Developer"],
+    url: "https://chanblog.xyz",
+    baseUrl: "https://chanblog.xyz",
+    image: "https://chanblog.xyz/og-image.png",
     favicon: {
       ico: "/favicon.ico",
       png: "/favicon.png",
@@ -15,8 +15,8 @@ export const config = {
     },
     manifest: "/site.webmanifest",
     rss: {
-      title: "Nextjs Blog Template",
-      description: "Thoughts on Full-stack development, AI",
+      title: "Chan's Blogs",
+      description: "Chan's Blogs - Share my learning and experience",
       feedLinks: {
         rss2: "/rss.xml",
         json: "/feed.json",
@@ -25,9 +25,9 @@ export const config = {
     },
   },
   author: {
-    name: "Your Name",
-    email: "your.email@example.com",
-    bio: "这是一个 Nextjs 博客模板",
+    name: "chan",
+    email: "changroup1902@gmail.com",
+    bio: "An investment in knowledge pays the best interest.",
   },
   social: {
     github: "https://github.com/xxx",
@@ -37,9 +37,9 @@ export const config = {
     buyMeACoffee: "https://www.buymeacoffee.com/xxx",
   },
   giscus: {
-    repo: "guangzhengli/hugo-ladder-exampleSite",
-    repoId: "R_kgDOHyVOjg",
-    categoryId: "DIC_kwDOHyVOjs4CQsH7",
+    repo: "armilkchen/blog",
+    repoId: "R_kgDOOXyo2A",
+    categoryId: "DIC_kwDOOXyo2M4Co_uZ",
   },
   navigation: {
     main: [
@@ -50,7 +50,7 @@ export const config = {
     ],
   },
   seo: {
-    metadataBase: new URL("https://xxx.com"),
+    metadataBase: new URL("https://chanblog.xyz"),
     alternates: {
       canonical: './',
     },
