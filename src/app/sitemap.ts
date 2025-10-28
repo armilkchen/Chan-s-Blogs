@@ -4,13 +4,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
   {
     "url": "/",
-    lastModified: new Date("2025-04-29T08:25:58.697Z"),
+    lastModified: new Date("2025-10-28T07:10:56.706Z"),
     "changeFrequency": "daily",
     "priority": 1
   },
   {
     "url": "/blog",
-    lastModified: new Date("2025-04-29T08:25:58.698Z"),
+    lastModified: new Date("2025-10-28T07:10:56.707Z"),
     "changeFrequency": "daily",
     "priority": 0.9
   },
@@ -29,6 +29,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
   {
     "url": "blog/20250414-1",
     lastModified: new Date("2025-04-14T12:10:00.000Z"),
+    "changeFrequency": "weekly",
+    "priority": 0.8
+  },
+  {
+    "url": "blog/20250520-1",
+    lastModified: new Date("2025-05-20T12:10:00.000Z"),
+    "changeFrequency": "weekly",
+    "priority": 0.8
+  },
+  {
+    "url": "blog/20250624-1",
+    lastModified: new Date("2025-06-24T12:10:00.000Z"),
+    "changeFrequency": "weekly",
+    "priority": 0.8
+  },
+  {
+    "url": "blog/20251013-1",
+    lastModified: new Date("2025-10-13T12:10:00.000Z"),
+    "changeFrequency": "weekly",
+    "priority": 0.8
+  },
+  {
+    "url": "blog/20251015-1",
+    lastModified: new Date("2025-10-15T12:10:00.000Z"),
+    "changeFrequency": "weekly",
+    "priority": 0.8
+  },
+  {
+    "url": "blog/20251028-1",
+    lastModified: new Date("2025-10-28T12:10:00.000Z"),
     "changeFrequency": "weekly",
     "priority": 0.8
   }
