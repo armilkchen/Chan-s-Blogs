@@ -4,13 +4,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
   {
     "url": "/",
-    lastModified: new Date("2025-11-21T09:29:55.076Z"),
+    lastModified: new Date("2025-11-28T08:33:57.178Z"),
     "changeFrequency": "daily",
     "priority": 1
   },
   {
     "url": "/blog",
-    lastModified: new Date("2025-11-21T09:29:55.077Z"),
+    lastModified: new Date("2025-11-28T08:33:57.179Z"),
     "changeFrequency": "daily",
     "priority": 0.9
   },
@@ -77,6 +77,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   {
     "url": "blog/20251121-1",
     lastModified: new Date("2025-11-21T12:10:00.000Z"),
+    "changeFrequency": "weekly",
+    "priority": 0.8
+  },
+  {
+    "url": "blog/20251128-1",
+    lastModified: new Date("2025-11-28T12:10:00.000Z"),
     "changeFrequency": "weekly",
     "priority": 0.8
   }
