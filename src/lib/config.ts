@@ -37,7 +37,7 @@ export const config = {
     buyMeACoffee: "https://www.buymeacoffee.com/xxx",
   },
   giscus: {
-    repo: "armilkchen/blog",
+    repo: "armilkchen/Chan-s-Blogs",
     repoId: "R_kgDOOXyo2A",
     categoryId: "DIC_kwDOOXyo2M4Co_uZ",
   },
